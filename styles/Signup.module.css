@@ -1,0 +1,72 @@
+.signup {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .signupbox {
+    width: 80%;
+    height: 80%;
+}
+
+.signup .signupbox h2 {
+    font-size: 50px;
+    color: var(--primary);
+
+}
+
+.signup .signupbox h1 {
+    font-size: 80px;
+    color: var(--primary);
+}
+
+.signup .signupbox h3 {
+    font-size: 30px;
+    color: black;
+
+}
+
+.signup .signupbox .btn {
+    width: fit-content;
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    /* margin: 25px auto 0 auto; */
+    color: white;
+}
+
+.signup .signupbox .email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+
+}
+
+.signup .signupbox .email .correct {
+    font-size: 20px;
+}
+
+.signup .signupbox .acc{
+    display: block;
+    /* text-align: center; */
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+}
+.signup .signupbox .acc b{
+    color: var(--secondary);
+    cursor: pointer;
+}
+.signup .signupbox .acc a{
+    all: unset;
+}
+
