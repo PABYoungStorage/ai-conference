@@ -13,13 +13,14 @@ export default function Signin() {
             <div className={styles.signin}>
                 <div className={styles.box}>
                     <div style={{ textAlign: "center" }} >
-                        <Image alt="logoimage" src="/logo.png" width={100} height={100} />
+                        <Image src="/admin.png" width={100} height={100} />
+                        {/* <h1 style={{fontSize:"20px"}}>Admin-page!!</h1> */}
                     </div>
                     <h1>sign in</h1>
                     <Input gap="15" label="username/Email" type="text" placeholder="username" required={true} />
                     <Input gap="15" label="password" type="password" placeholder="password" required={true} />
                     <button className={styles.btn}>sign in <i class="bi bi-arrow-right"></i></button>
-                    <span>don't have an account? <b><Link href="/auth/signup">sign up</Link></b></span>
+                    
                 </div>
             </div>
         </>

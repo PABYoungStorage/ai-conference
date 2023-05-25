@@ -16,3 +16,16 @@
     background-color: var(--input);
     text-transform: none;
 }
+
+.tracker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.tracker b{
+    width: 50px;
+    background-color: black;
+    height: 3px;
+    border-radius: 50px;
+}
