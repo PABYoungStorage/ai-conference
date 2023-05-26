@@ -18,9 +18,7 @@ export default function userpage() {
                 </div>
                 <h3>Welcome Back <b>Anish</b></h3>
                 <div className={styles.mark}>
-                    <div className={styles.uploader}>
-                        <Image alt="" src="/Upload.png" width={50} height={50} />
-                    </div>
+
                     <div className={styles.grid}>
                         <div className={styles.container}>
                             <h2>No of paper submitted</h2>

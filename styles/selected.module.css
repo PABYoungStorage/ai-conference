@@ -1,0 +1,109 @@
+.select {
+    position: sticky;
+    top: 0;
+}
+
+
+.select .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(179, 133, 216, 0.2);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.select .logo .gap {
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+}
+
+.select .selectbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 30vh; */
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 50px;
+}
+
+.select .selectbox h1 {
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.select .selectbox span {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.select .selectbox .pdf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 60px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.select .selectbox .pdf .colour span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 10px;
+    background: #588E00;
+    border-radius: 10px;
+}
+
+
+.select .selectbox h3 {
+    font-size: 15px;
+}
+
+
+
+.select .selectbox .btn {
+    width: fit-content;
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 7px 20px;
+    border-radius: 23px;
+    color: white;
+}
+
+.select .selectbox .btnback {
+    width: fit-content;
+    border: none;
+    outline: none;
+    background-color: #E9E9E9;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 7px 20px;
+    border-radius: 23px;
+    color: black;
+}
+
+.select .selectbox .btnflex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 80px;
+    width: 94%;
+    /* margin-top: 20px; */
+}
+
+.doodle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
