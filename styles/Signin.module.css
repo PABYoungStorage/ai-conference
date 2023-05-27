@@ -48,3 +48,17 @@
 .signin .box a{
     all: unset;
 }
+
+
+@media screen and (max-width: 915px) {
+    .Signin_signin__k9c8m .Signin_box__F9No9 {
+        width: 400px;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        scroll-behavior: unset;
+    }
+}

@@ -24,9 +24,13 @@ export default function selected() {
 
                     <div className={styles.pdf}>
                         <Image alt="" src="/File.png" width={50} height={50} />
+                        <div className={styles.name}>
                         <h3>Paper-1-anish.pdf</h3>
+                        </div>
+                        <div className={styles.load}>
                         <div className={styles.colour}>
                             <span></span><b>100</b>
+                        </div>
                         </div>
                     </div>
                     <div className={styles.btnflex}>
